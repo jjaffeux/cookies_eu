@@ -5,7 +5,7 @@
     <span class="cookies-eu-button-holder">
     <button class="cookies-eu-ok"> <%= t('cookies_eu.ok') %> </button>
     <% if defined?(link).present? %>
-      <a target="<%= target %>" href="<%= link %>" class="cookies-eu-link"> <%= t('cookies_eu.learn_more') %> </a>
+      <a target="<%= target %>" href="<%= link %>" rel="nofollow" class="cookies-eu-link"> <%= t('cookies_eu.learn_more') %> </a>
     <% end %>
     </span>
   </div>
